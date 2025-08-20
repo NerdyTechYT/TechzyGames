@@ -1,6 +1,6 @@
 # TechzyGames – Tic Tac Toe
 
-Welcome to **TechzyGames Tic Tac Toe**, a simple but polished web game hosted at [game.techzynerd.com](https://game.techzynerd.com).  
+Welcome to **TechzyGames **, a simple but polished web game hosted at [game.techzynerd.com](https://game.techzynerd.com).  
 If this project grows popular, it will get its **own dedicated domain** and continue to receive frequent updates.
 
 ---
