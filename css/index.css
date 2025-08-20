@@ -1,0 +1,115 @@
+/* ===== Base Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0d3b66; /* TechzyNerd dark blue */
+  --secondary-color: #112d4e;
+  --accent-color: #f4d35e;
+  --text-light: #ffffff;
+  --text-dark: #222222;
+  --bg-color: #f0f4f8;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-dark);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background: var(--primary-color);
+  color: var(--text-light);
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* ===== Main Content ===== */
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.game-feature {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  text-align: center;
+  padding: 2rem;
+}
+
+.game-thumb {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.game-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.game-info p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.play-btn {
+  display: inline-block;
+  background: var(--accent-color);
+  color: var(--text-dark);
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.play-btn:hover {
+  background: #d9bc43;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--primary-color);
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .game-feature {
+    max-width: 90%;
+    padding: 1.5rem;
+  }
+  .game-info h2 {
+    font-size: 1.5rem;
+  }
+  .play-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+  }
+}
